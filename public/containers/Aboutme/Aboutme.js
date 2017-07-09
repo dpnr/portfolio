@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {Content, Heading, Matter} from './Aboutme.Style'
-
+import Home from '../../components/Home/Home';
 
 
 class Aboutme extends Component{
@@ -8,8 +8,12 @@ class Aboutme extends Component{
 render(){
 
     return(
-
-        <Content>
+        
+        <div  style={{'paddingTop': '50px'}}>
+        <div className='col-md-1'></div>
+        <Home/>
+       
+        <Content className='col-md-6'>
             <Heading>About me </Heading>
             <Matter> I'm currently a Master's Student at University of Utah(UoU) living in Salt lake city, Utah. 
                 My interest lies in the fields of Visual Analytics and Web development. I expect to graduate by the end of 
@@ -27,8 +31,8 @@ render(){
                 <br/>
                 On the personal side, I love pets and travelling, Also have a great passion for sketching.
             </Matter>
-        </Content>
-
+            </Content>
+        </div>
     )
 
 

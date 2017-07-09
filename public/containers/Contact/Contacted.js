@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import {Content, Heading} from '../Aboutme/Aboutme.Style'
-import {Formcontainer, Labels, Textarea, Inputs, Contactmatter}  from './Contact.Style.js'
-
+import {Formcontainer, Labels, Textarea, Inputs, Contactmatter, Message}  from './Contact.Style.js'
+import Home from '../../components/Home/Home';
 
 class Contacted extends Component{
 
@@ -9,7 +9,10 @@ render(){
 
     return(
 
-        <Content>
+        <div  style={{'paddingTop': '50px'}}>
+        <div className='col-md-1'></div>
+        <Home/>
+        <Content className='col-md-6'>
             <Heading>Contact Me! </Heading>
             <Contactmatter>I'm open for colloborations or discussing about anything related to my
                 area of interests.<br/><br/> Just drop in a message and I shall get back!
@@ -17,9 +20,10 @@ render(){
             <br/>
             <br/>
             <Formcontainer>
-            <Labels>Thanks for contacting !!!!</Labels>
+            <Message>Thanks for contacting !!!!</Message>
             </Formcontainer>
             </Content>
+            </div>
 
     )
 

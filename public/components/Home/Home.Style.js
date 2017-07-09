@@ -17,17 +17,16 @@ border-right: 6px solid #fff7c6;
 
 export const Image = styled.img`
 
-  width: 200px;
-  height: 200px;
-  margin : 0px 20px;
+  width: 120px;
+  height: 120px;
+  margin-top: 80px;
   border-radius : 50%;
 `;
 
 export const Icons = styled.img`
 
- width: 40px;
- height: 40px;
- margin-top: 20px;
+ width: 30px;
+ height: 30px;
  opacity : 0.8;
 
  ${({left}) => left && css`
@@ -48,7 +47,7 @@ export const Icons = styled.img`
 
 export const Impline = styled.h1`
     
-    font-size: 2.5em;
+    font-size: 1.4em;
     margin-bottom: 80px;
 
 
@@ -62,7 +61,7 @@ export const Hello = styled.h1`
 
 `;
 
-export const Bioinfo = styled(Flex)`
+export const Bioinfo = styled.p`
 
       ${({top})=> top && css` 
             margin-top : ${top};
@@ -74,9 +73,7 @@ export const Bioinfo = styled(Flex)`
       ${({font})=> font && css` 
             font-size : ${font};
        `};
-      ${({margin})=> margin && css` 
-            margin : ${margin};
-       `};
+     margin: 0px 0px;
 `;
 
 export const Bioline = styled(Bioinfo)`

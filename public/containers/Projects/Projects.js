@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import {Content, Matter, Heading} from '../Aboutme/Aboutme.Style'
 import {Projectname, Customlink} from './Projects.Style'
+import Home from '../../components/Home/Home';
 
 
 class Projects extends Component{
@@ -9,9 +10,14 @@ render(){
 
     return(
 
-        <Content>
+        <div  style={{'paddingTop': '50px'}}>
+        <div className='col-md-1'> </div>
+        <Home/>
+       
+        <div className='col-md-6'>
+            <Content>
             <Heading>Projects </Heading>
-            
+              
             <Projectname>My first ever interactive webpage</Projectname>
             <Matter>Have worked on this as a part of Data Visualization course I have taken
                 and that is when I started to love building the analytic tools and also 
@@ -38,7 +44,9 @@ render(){
             <Customlink href="https://github.com/u1068846/Arduino-Project-Overview/blob/master/Project%20Report.pdf">
             More briefing here</Customlink>
             
-            </Content>
+           </Content>
+           </div>
+           </div>
 
     )
 
