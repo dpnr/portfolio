@@ -38,7 +38,6 @@ export const Inputs = styled.input`
 
     font-size: 1.3em;
     width: 100%;
-    padding: 14px 18px;
     margin: 8px 0;
     border-radius: 4px;
     

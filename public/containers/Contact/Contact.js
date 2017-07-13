@@ -23,11 +23,11 @@ render(){
             <form action='/contacted' method='post' role='form'>
                 <Formcontainer>
                 
-                <div width="100px"><Inputs type="text" id="userName" placeholder="Enter your Name" onfocus="this.placeholder = ''" className="form-control" name="userName" required></Inputs></div>
+                <div width="100px"><Inputs type="text" id="userName" placeholder="Name" onfocus="this.placeholder = ''" className="form-control" name="userName" required></Inputs></div>
                 </Formcontainer>
                 
                 <Formcontainer>
-               <div><Inputs type="email" id="userEmail" placeholder="Enter your Email" onfocus="this.placeholder = ''" className="form-control" name="userEmail" required></Inputs></div>
+               <div><Inputs type="email" id="userEmail" placeholder="Email" onfocus="this.placeholder = ''" className="form-control" name="userEmail" required></Inputs></div>
                 
                 </Formcontainer>
                
@@ -37,7 +37,7 @@ render(){
                 
                 
                 
-                 <div>  <Textarea type="text" id="userMsg" placeholder="Enter your Message" onfocus="this.placeholder = ''" className="form-control" name="userMsg" requied></Textarea></div>
+                 <div>  <Textarea type="text" id="userMsg" placeholder="Message" onfocus="this.placeholder = ''" className="form-control" name="userMsg" requied></Textarea></div>
                 </Formcontainer>
 
                 <Formcontainer >
