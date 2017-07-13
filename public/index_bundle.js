@@ -31918,7 +31918,7 @@ var Contact = function (_Component) {
                                 _react2.default.createElement(
                                     _ContactStyle.Formcontainer,
                                     null,
-                                    _react2.default.createElement(_ContactStyle.Button, { type: 'submit' })
+                                    _react2.default.createElement(_ContactStyle.Button, { type: 'submit', value: 'Submit' })
                                 )
                             )
                         )

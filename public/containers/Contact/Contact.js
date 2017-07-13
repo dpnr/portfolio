@@ -41,7 +41,7 @@ render(){
                 </Formcontainer>
 
                 <Formcontainer >
-                <Button type='submit'></Button>
+                <Button type='submit' value="Submit"></Button>
                 </Formcontainer>
 
                 </form>
