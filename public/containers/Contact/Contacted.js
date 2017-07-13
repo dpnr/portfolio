@@ -20,7 +20,9 @@ render(){
             <br/>
             <br/>
             <Formcontainer>
+            <center>
             <Message>Thanks for contacting !!!!</Message>
+            </center>
             </Formcontainer>
             </Content>
             </div>

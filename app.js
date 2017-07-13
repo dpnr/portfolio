@@ -30,10 +30,10 @@ app.get('/',function(req,res){
 app.post('/contacted',function(req,res){
 
 var data = {
-  from: 'pranavtest <postmaster@sandbox3dbed4b2ad1542b480b5ddd00a6126a0.mailgun.org>',
+  from: '@portfolio <postmaster@sandbox3dbed4b2ad1542b480b5ddd00a6126a0.mailgun.org>',
   to: 'pranavnathdommata@gmail.com',
   subject: req.body.userName,
-  text: req.body.userEmail+"\n @@@@@@ \n"+req.body.userMsg
+  text: req.body.userEmail+"\n\n\n @@@@@@ \n\n\n"+req.body.userMsg
 };
 
 mailgun.messages().send(data, function (error, body) {

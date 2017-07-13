@@ -12,7 +12,7 @@ export default class Home extends Component{
     
         return (
 
-            <div className='col-md-3' >
+            <Container className='col-md-3' >
             
             <center>
             <Image src='static/assets/profile_zoomed.jpg' alt='profile piture'/>
@@ -28,7 +28,7 @@ export default class Home extends Component{
             <a href="http://github.com/u1068846" target="_blank">
             <Icons left={'10px'} src='static/assets/github.svg' alt='profile piture'/>
             </a>
-            <a href="mailto:pranavnathdommata@gmail.com" target="_blank">
+            <a href="mailto:pranavnathdommata@gmail.com" >
             <Icons left={'10px'} src='static/assets/email.svg' alt='profile piture'/>
             </a>
             
@@ -38,7 +38,7 @@ export default class Home extends Component{
     
             </div>
             </center>
-            </div>
+            </Container>
             
 
         )   ;

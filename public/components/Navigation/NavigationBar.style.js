@@ -50,3 +50,30 @@ export const Headers = styled(Link)`
     }
 
 `;
+
+
+export const Links = styled.li`
+    font-size: 15px;
+    position : relative;
+
+     &:hover{
+        
+        font-weight: bold;
+        fill: black;
+        opacity: 0.8;
+         
+    }
+
+
+`;
+
+export const Acustom = styled.a`
+ &:hover{
+        
+        border-bottom : 4px solid #E5DEB2;
+        cursor: pointer;
+        
+        
+    }
+
+`;

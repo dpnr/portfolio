@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import media from '../../theme/media';
 
 export const Content = styled.div`
 
@@ -16,7 +16,7 @@ export const Heading = styled.h1`
 padding-left: 20px;
 padding-bottom: 30px;
 font-size : 3em;
-opacity : 0.6;
+opacity : 0.8;
 font-weight: bold;
 
 
@@ -31,5 +31,11 @@ font-weight : normal;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+
+
+      ${media.phone`
+        padding-left: 20px;
+    
+    `}
 
 `;

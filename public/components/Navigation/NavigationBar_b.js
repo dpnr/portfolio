@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import {Links, Acustom} from './NavigationBar.style';
 
 
  
@@ -15,7 +16,7 @@ class NavigationBar_b extends Component{
                 <div className = "container" >
 
                     <div className = 'navbar-header'>
-                    <a href = "#" className = "navbar-brand">Hello there!</a>
+                    <a href = "#" className = "navbar-brand">Hi there! </a>
                     <button className="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
                         <span className = "icon-bar"></span>
                         <span className = "icon-bar"></span>
@@ -28,9 +29,9 @@ class NavigationBar_b extends Component{
                         
                         <ul className ="nav navbar-nav navbar-right">
 
-                            <li className="nav-item" ><a className='nav-link' href="#" >About me</a></li>
-                            <li className="nav-item" ><a className='nav-link' href="/#/projects">Projects</a></li>
-                            <li className="nav-item" ><a className='nav-link' href="/#/contact">Contact</a></li>
+                            <Links className="nav-item" ><Acustom className='nav-link' href="#" >About me</Acustom></Links>
+                            <Links className="nav-item" ><Acustom className='nav-link' href="/#/projects">Projects</Acustom></Links>
+                            <Links className="nav-item" ><Acustom className='nav-link' href="/#/contact">Contact</Acustom></Links>
 
 
                         </ul>

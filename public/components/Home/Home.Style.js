@@ -1,14 +1,19 @@
 import styled,{css} from 'styled-components';
 import {Flex} from '../../theme/grid';
+import media from '../../theme/media';
+
 
 export const Container = styled.div`
 
-position: fixed;
-padding-top: 10px;
-padding-bottom: 100px;
-width : 400px;
-margin: 150px 200px;
+margin-top: 40px;
+padding-bottom: 30px;
 border-right: 6px solid #fff7c6; 
+
+    ${media.desktop`
+        border-right: 0px solid white;
+        border-bottom: 6px solid #fff7c6;
+    
+    `}
 
 `;
 
@@ -19,7 +24,7 @@ export const Image = styled.img`
 
   width: 120px;
   height: 120px;
-  margin-top: 80px;
+  margin-top: 40px;
   border-radius : 50%;
 `;
 
