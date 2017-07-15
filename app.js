@@ -42,7 +42,7 @@ mailgun.messages().send(data, function (error, body) {
         res.send(error);
     }
     
-res.redirect('http://localhost:3000/#/contacted');
+res.redirect('/#/contacted');
 console.log('done');
 
 // res.writeHead(200,
@@ -57,6 +57,6 @@ res.end();
 })
 
 
-app.listen(3000,function(){
-    console.log("the server is listening at 3000");
+app.listen(5000,function(){
+    console.log("the server is listening at 5000");
 })
