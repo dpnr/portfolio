@@ -19,6 +19,10 @@ padding-left: 80px;
         padding-left: 40px;
         padding-right: 40px;
     `}
+     ${media.giant`
+    
+        padding-right: 100px;
+    `}
 
 `;
 export const Labels = styled.label`
@@ -40,7 +44,7 @@ export const Inputs = styled.input`
     width: 100%;
     margin: 8px 0;
     border-radius: 4px;
-    
+ 
     
 `;
 

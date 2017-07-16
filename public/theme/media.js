@@ -41,10 +41,22 @@ function tablet(...args){
 
 }
 
+function giant(...args){
+    return css`
+        @media(min-width: ${sizes.giant-10}px){
+
+            ${css(...args)}
+        }
+
+    `;
+
+}
+
 const media={
 phone,
 desktop,
-tablet
+tablet,
+giant
 }
 
 export default media;

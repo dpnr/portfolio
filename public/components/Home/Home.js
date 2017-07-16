@@ -15,7 +15,7 @@ export default class Home extends Component{
             <Container className='col-md-3' >
             
             <center>
-            <Image src='static/assets/profile_zoomed.jpg' alt='profile piture'/>
+            <Image src='static/assets/profile_zoomed.jpg' alt='pranav dommata'/>
             <Bioline font={'1.9em'} margin={'0px 30px'}>Pranav Dommata</Bioline>
             
             <Bioinfo font={'1.2em'}  top={'10px'} left={'0px'}>Master's Student </Bioinfo>

@@ -22,12 +22,30 @@ font-weight: bold;
 
 `;
 
+
+export const Subheading = styled(Heading)`
+
+font-size : 1.5em;
+padding : 12px;
+padding-left : 60px;
+
+
+      ${media.phone`
+        padding-left: 10px;
+        
+    `}
+`;
+
+
 export const Matter = styled.h3`
 
 margin-top:10px;
 padding-left: 80px;
+padding-right: 10px;
 font-size : 1.3em;
 font-weight : normal;
+line-height : 25px;
+
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -35,7 +53,7 @@ font-weight : normal;
 
       ${media.phone`
         padding-left: 20px;
-    
+        font-size : 1.2em;
     `}
 
 `;

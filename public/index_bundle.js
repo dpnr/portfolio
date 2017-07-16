@@ -5806,12 +5806,14 @@ var locationsAreEqual = exports.locationsAreEqual = function locationsAreEqual(a
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.Matter = exports.Heading = exports.Content = undefined;
+exports.Matter = exports.Subheading = exports.Heading = exports.Content = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n\n\npadding-top: 50px;\npadding-bottom: 70px;\n\nz-index: -1;\n\n'], ['\n\n\npadding-top: 50px;\npadding-bottom: 70px;\n\nz-index: -1;\n\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n\npadding-left: 20px;\npadding-bottom: 30px;\nfont-size : 3em;\nopacity : 0.8;\nfont-weight: bold;\n\n\n'], ['\n\npadding-left: 20px;\npadding-bottom: 30px;\nfont-size : 3em;\nopacity : 0.8;\nfont-weight: bold;\n\n\n']),
-    _templateObject3 = _taggedTemplateLiteral(['\n\nmargin-top:10px;\npadding-left: 80px;\nfont-size : 1.3em;\nfont-weight : normal;\n    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;\n    text-rendering: optimizeLegibility;\n    -webkit-font-smoothing: antialiased;\n\n\n      ', '\n\n'], ['\n\nmargin-top:10px;\npadding-left: 80px;\nfont-size : 1.3em;\nfont-weight : normal;\n    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;\n    text-rendering: optimizeLegibility;\n    -webkit-font-smoothing: antialiased;\n\n\n      ', '\n\n']),
-    _templateObject4 = _taggedTemplateLiteral(['\n        padding-left: 20px;\n    \n    '], ['\n        padding-left: 20px;\n    \n    ']);
+    _templateObject3 = _taggedTemplateLiteral(['\n\nfont-size : 1.5em;\npadding : 12px;\npadding-left : 60px;\n\n\n      ', '\n'], ['\n\nfont-size : 1.5em;\npadding : 12px;\npadding-left : 60px;\n\n\n      ', '\n']),
+    _templateObject4 = _taggedTemplateLiteral(['\n        padding-left: 10px;\n        \n    '], ['\n        padding-left: 10px;\n        \n    ']),
+    _templateObject5 = _taggedTemplateLiteral(['\n\nmargin-top:10px;\npadding-left: 80px;\npadding-right: 10px;\nfont-size : 1.3em;\nfont-weight : normal;\nline-height : 25px;\n\n    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;\n    text-rendering: optimizeLegibility;\n    -webkit-font-smoothing: antialiased;\n\n\n      ', '\n\n'], ['\n\nmargin-top:10px;\npadding-left: 80px;\npadding-right: 10px;\nfont-size : 1.3em;\nfont-weight : normal;\nline-height : 25px;\n\n    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;\n    text-rendering: optimizeLegibility;\n    -webkit-font-smoothing: antialiased;\n\n\n      ', '\n\n']),
+    _templateObject6 = _taggedTemplateLiteral(['\n        padding-left: 20px;\n        font-size : 1.2em;\n    '], ['\n        padding-left: 20px;\n        font-size : 1.2em;\n    ']);
 
 var _styledComponents = __webpack_require__(17);
 
@@ -5829,7 +5831,9 @@ var Content = exports.Content = _styledComponents2.default.div(_templateObject);
 
 var Heading = exports.Heading = _styledComponents2.default.h1(_templateObject2);
 
-var Matter = exports.Matter = _styledComponents2.default.h3(_templateObject3, _media2.default.phone(_templateObject4));
+var Subheading = exports.Subheading = (0, _styledComponents2.default)(Heading)(_templateObject3, _media2.default.phone(_templateObject4));
+
+var Matter = exports.Matter = _styledComponents2.default.h3(_templateObject5, _media2.default.phone(_templateObject6));
 
 /***/ }),
 /* 32 */
@@ -6451,7 +6455,7 @@ var Home = function (_Component) {
                 _react2.default.createElement(
                     'center',
                     null,
-                    _react2.default.createElement(_Home.Image, { src: 'static/assets/profile_zoomed.jpg', alt: 'profile piture' }),
+                    _react2.default.createElement(_Home.Image, { src: 'static/assets/profile_zoomed.jpg', alt: 'pranav dommata' }),
                     _react2.default.createElement(
                         _Home.Bioline,
                         { font: '1.9em', margin: '0px 30px' },
@@ -10477,7 +10481,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 var _templateObject = _taggedTemplateLiteral(['\n        @media(max-width: ', 'px){\n\n            ', '\n        }\n    '], ['\n        @media(max-width: ', 'px){\n\n            ', '\n        }\n    ']),
-    _templateObject2 = _taggedTemplateLiteral(['\n        @media(max-width: ', 'px){\n\n            ', '\n        }\n\n    '], ['\n        @media(max-width: ', 'px){\n\n            ', '\n        }\n\n    ']);
+    _templateObject2 = _taggedTemplateLiteral(['\n        @media(max-width: ', 'px){\n\n            ', '\n        }\n\n    '], ['\n        @media(max-width: ', 'px){\n\n            ', '\n        }\n\n    ']),
+    _templateObject3 = _taggedTemplateLiteral(['\n        @media(min-width: ', 'px){\n\n            ', '\n        }\n\n    '], ['\n        @media(min-width: ', 'px){\n\n            ', '\n        }\n\n    ']);
 
 var _styledComponents = __webpack_require__(17);
 
@@ -10504,10 +10509,15 @@ function tablet() {
     return (0, _styledComponents.css)(_templateObject2, sizes.tablet, _styledComponents.css.apply(undefined, arguments));
 }
 
+function giant() {
+    return (0, _styledComponents.css)(_templateObject3, sizes.giant - 10, _styledComponents.css.apply(undefined, arguments));
+}
+
 var media = {
     phone: phone,
     desktop: desktop,
-    tablet: tablet
+    tablet: tablet,
+    giant: giant
 };
 
 exports.default = media;
@@ -16208,15 +16218,16 @@ Object.defineProperty(exports, "__esModule", {
 exports.Textarea = exports.Button = exports.Inputs = exports.Message = exports.Labels = exports.Formcontainer = exports.Contactmatter = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n    font-size: 1.1em;\n\n'], ['\n    font-size: 1.1em;\n\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\nmargin: 10px 10px;\npadding-left: 80px;\n ', '\n     ', '\n\n'], ['\nmargin: 10px 10px;\npadding-left: 80px;\n ', '\n     ', '\n\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\nmargin: 10px 10px;\npadding-left: 80px;\n ', '\n     ', '\n     ', '\n\n'], ['\nmargin: 10px 10px;\npadding-left: 80px;\n ', '\n     ', '\n     ', '\n\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n        padding-left: 20px;\n    \n    '], ['\n        padding-left: 20px;\n    \n    ']),
     _templateObject4 = _taggedTemplateLiteral(['\n        padding-left: 40px;\n        padding-right: 40px;\n    '], ['\n        padding-left: 40px;\n        padding-right: 40px;\n    ']),
-    _templateObject5 = _taggedTemplateLiteral(['\nfont-size: 1.2em;\n'], ['\nfont-size: 1.2em;\n']),
-    _templateObject6 = _taggedTemplateLiteral(['\nfont-size: 2.2em;\n  ', '\n\n'], ['\nfont-size: 2.2em;\n  ', '\n\n']),
-    _templateObject7 = _taggedTemplateLiteral(['\n        font-size: 1.3em;\n    \n    '], ['\n        font-size: 1.3em;\n    \n    ']),
-    _templateObject8 = _taggedTemplateLiteral(['\n\n    font-size: 1.3em;\n    width: 100%;\n    margin: 8px 0;\n    border-radius: 4px;\n    \n    \n'], ['\n\n    font-size: 1.3em;\n    width: 100%;\n    margin: 8px 0;\n    border-radius: 4px;\n    \n    \n']),
-    _templateObject9 = _taggedTemplateLiteral(['\nbackground-color: #4CAF50;\ncursor: pointer;\ncolor: white;\nborder: none;\n\n'], ['\nbackground-color: #4CAF50;\ncursor: pointer;\ncolor: white;\nborder: none;\n\n']),
-    _templateObject10 = _taggedTemplateLiteral(['\n\nfont-size: 1.2em;\nwidth: 100%;\nheight: 80px;\n'], ['\n\nfont-size: 1.2em;\nwidth: 100%;\nheight: 80px;\n']);
+    _templateObject5 = _taggedTemplateLiteral(['\n    \n        padding-right: 100px;\n    '], ['\n    \n        padding-right: 100px;\n    ']),
+    _templateObject6 = _taggedTemplateLiteral(['\nfont-size: 1.2em;\n'], ['\nfont-size: 1.2em;\n']),
+    _templateObject7 = _taggedTemplateLiteral(['\nfont-size: 2.2em;\n  ', '\n\n'], ['\nfont-size: 2.2em;\n  ', '\n\n']),
+    _templateObject8 = _taggedTemplateLiteral(['\n        font-size: 1.3em;\n    \n    '], ['\n        font-size: 1.3em;\n    \n    ']),
+    _templateObject9 = _taggedTemplateLiteral(['\n\n    font-size: 1.3em;\n    width: 100%;\n    margin: 8px 0;\n    border-radius: 4px;\n \n    \n'], ['\n\n    font-size: 1.3em;\n    width: 100%;\n    margin: 8px 0;\n    border-radius: 4px;\n \n    \n']),
+    _templateObject10 = _taggedTemplateLiteral(['\nbackground-color: #4CAF50;\ncursor: pointer;\ncolor: white;\nborder: none;\n\n'], ['\nbackground-color: #4CAF50;\ncursor: pointer;\ncolor: white;\nborder: none;\n\n']),
+    _templateObject11 = _taggedTemplateLiteral(['\n\nfont-size: 1.2em;\nwidth: 100%;\nheight: 80px;\n'], ['\n\nfont-size: 1.2em;\nwidth: 100%;\nheight: 80px;\n']);
 
 var _styledComponents = __webpack_require__(17);
 
@@ -16234,16 +16245,16 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 
 var Contactmatter = exports.Contactmatter = (0, _styledComponents2.default)(_Aboutme.Matter)(_templateObject);
 
-var Formcontainer = exports.Formcontainer = _styledComponents2.default.div(_templateObject2, _media2.default.phone(_templateObject3), _media2.default.tablet(_templateObject4));
-var Labels = exports.Labels = _styledComponents2.default.label(_templateObject5);
+var Formcontainer = exports.Formcontainer = _styledComponents2.default.div(_templateObject2, _media2.default.phone(_templateObject3), _media2.default.tablet(_templateObject4), _media2.default.giant(_templateObject5));
+var Labels = exports.Labels = _styledComponents2.default.label(_templateObject6);
 
-var Message = exports.Message = _styledComponents2.default.label(_templateObject6, _media2.default.phone(_templateObject7));
+var Message = exports.Message = _styledComponents2.default.label(_templateObject7, _media2.default.phone(_templateObject8));
 
-var Inputs = exports.Inputs = _styledComponents2.default.input(_templateObject8);
+var Inputs = exports.Inputs = _styledComponents2.default.input(_templateObject9);
 
-var Button = exports.Button = (0, _styledComponents2.default)(Inputs)(_templateObject9);
+var Button = exports.Button = (0, _styledComponents2.default)(Inputs)(_templateObject10);
 
-var Textarea = exports.Textarea = _styledComponents2.default.textarea(_templateObject10);
+var Textarea = exports.Textarea = _styledComponents2.default.textarea(_templateObject11);
 
 /***/ }),
 /* 124 */
@@ -31630,6 +31641,59 @@ var Aboutme = function (_Component) {
                             _react2.default.createElement('br', null),
                             _react2.default.createElement('br', null),
                             'On the personal side, I love pets and travelling, Also have a great passion for sketching.'
+                        ),
+                        _react2.default.createElement(
+                            _Aboutme.Subheading,
+                            null,
+                            'Industry Experience'
+                        ),
+                        _react2.default.createElement(
+                            _Aboutme.Matter,
+                            null,
+                            _react2.default.createElement(
+                                'em',
+                                { style: { "fontSize": "1.0em", "fontWeight": "500" } },
+                                'Master\'s Intern'
+                            ),
+                            '   - Pacific Northwest National Lab, Washington during Summer of 2017.',
+                            _react2.default.createElement('br', null),
+                            _react2.default.createElement('br', null),
+                            _react2.default.createElement(
+                                'em',
+                                { style: { "fontSize": "1.0em", "fontWeight": "500" } },
+                                'Software Engineer'
+                            ),
+                            ' - TEKsystems, Hyderabad, India (May, 2014 - July, 2016).'
+                        ),
+                        _react2.default.createElement(
+                            _Aboutme.Subheading,
+                            null,
+                            'Research Experience'
+                        ),
+                        _react2.default.createElement(
+                            _Aboutme.Matter,
+                            null,
+                            _react2.default.createElement(
+                                'em',
+                                { style: { "fontSize": "1.0em", "fontWeight": "500" } },
+                                'Independent Study under Dr. Alexander Lex'
+                            ),
+                            ' during Spring 2017.'
+                        ),
+                        _react2.default.createElement(
+                            _Aboutme.Subheading,
+                            null,
+                            'Other Responsibilities'
+                        ),
+                        _react2.default.createElement(
+                            _Aboutme.Matter,
+                            null,
+                            _react2.default.createElement(
+                                'em',
+                                { style: { "fontSize": "1.0em", "fontWeight": "500" } },
+                                'Public Relations'
+                            ),
+                            ' - Indian Students Association, University of Utah (Since Summer, 2017).'
                         )
                     )
                 )
@@ -31652,7 +31716,7 @@ exports.default = Aboutme;
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -31678,103 +31742,133 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Projects = function (_Component) {
-  _inherits(Projects, _Component);
+    _inherits(Projects, _Component);
 
-  function Projects() {
-    _classCallCheck(this, Projects);
+    function Projects() {
+        _classCallCheck(this, Projects);
 
-    return _possibleConstructorReturn(this, (Projects.__proto__ || Object.getPrototypeOf(Projects)).apply(this, arguments));
-  }
-
-  _createClass(Projects, [{
-    key: 'render',
-    value: function render() {
-
-      return _react2.default.createElement(
-        'div',
-        { style: { 'paddingTop': '50px' } },
-        _react2.default.createElement(
-          'div',
-          { className: 'col-md-1' },
-          ' '
-        ),
-        _react2.default.createElement(_Home2.default, null),
-        _react2.default.createElement(
-          'div',
-          { className: 'col-md-6' },
-          _react2.default.createElement(
-            _Aboutme.Content,
-            null,
-            _react2.default.createElement(
-              _Aboutme.Heading,
-              null,
-              'Projects '
-            ),
-            _react2.default.createElement(
-              _Projects.Projectname,
-              null,
-              'My first ever interactive webpage'
-            ),
-            _react2.default.createElement(
-              _Aboutme.Matter,
-              null,
-              'Have worked on this as a part of Data Visualization course I have taken and that is when I started to love building the analytic tools and also web development in general. We used HTML, CSS, JavaScript and d3.js for building the page.',
-              _react2.default.createElement('br', null),
-              _react2.default.createElement('br', null),
-              _react2.default.createElement(
-                _Projects.Customlink,
-                { href: 'https://u1068846.github.io/VisProject/gradSchoolFinder.html' },
-                'Project link(Please don\'t judge! ',
-                _react2.default.createElement('i', { className: 'em em-stuck_out_tongue' }),
-                ')'
-              )
-            ),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement(
-              _Projects.Projectname,
-              null,
-              'Deep into Databases'
-            ),
-            _react2.default.createElement(
-              _Aboutme.Matter,
-              null,
-              'Have worked on this as a part of Advanced Database Systems course and this project has helped me get to the bits and pieces of building a database system. This project is done completely in Java.',
-              _react2.default.createElement('br', null),
-              _react2.default.createElement('br', null),
-              ' ',
-              _react2.default.createElement(
-                _Projects.Customlink,
-                { href: 'http://catalog.utah.edu/preview_course_nopop.php?catoid=5&coid=59570' },
-                'checkout the course page!'
-              )
-            ),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement(
-              _Projects.Projectname,
-              null,
-              'This is when it all started (Arduino)'
-            ),
-            _react2.default.createElement(
-              _Aboutme.Matter,
-              null,
-              ' Back in my Under-grad days, I fell in love with coding when I started to play with a micro-controller board, Arduino. Later, me along with two other friends we built a Automatic motor vehicle braking prototype using Arduino as our Senior year project.',
-              _react2.default.createElement('br', null),
-              _react2.default.createElement('br', null),
-              _react2.default.createElement(
-                _Projects.Customlink,
-                { href: 'https://github.com/u1068846/Arduino-Project-Overview/blob/master/Project%20Report.pdf' },
-                'More briefing here'
-              )
-            )
-          )
-        )
-      );
+        return _possibleConstructorReturn(this, (Projects.__proto__ || Object.getPrototypeOf(Projects)).apply(this, arguments));
     }
-  }]);
 
-  return Projects;
+    _createClass(Projects, [{
+        key: 'render',
+        value: function render() {
+
+            return _react2.default.createElement(
+                'div',
+                { style: { 'paddingTop': '50px' } },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col-md-1' },
+                    ' '
+                ),
+                _react2.default.createElement(_Home2.default, null),
+                _react2.default.createElement(
+                    'div',
+                    { className: 'col-md-6' },
+                    _react2.default.createElement(
+                        _Aboutme.Content,
+                        null,
+                        _react2.default.createElement(
+                            _Aboutme.Heading,
+                            null,
+                            'Projects '
+                        ),
+                        _react2.default.createElement(
+                            _Projects.Projectname,
+                            null,
+                            'Building Visualization tools'
+                        ),
+                        _react2.default.createElement(
+                            _Aboutme.Matter,
+                            null,
+                            'I\'m happy with the opportunities I have been getting in the recent past for building the Visualization tools, some as a part of research at the university and some are at the industry level. Unfortunately, I cannot share details on those projects but will mention the technologies I have been using. I worked on ',
+                            _react2.default.createElement(
+                                'em',
+                                null,
+                                'MEAN'
+                            ),
+                            ' stack and recently started working with ',
+                            _react2.default.createElement(
+                                'em',
+                                null,
+                                'React'
+                            ),
+                            '. Used ',
+                            _react2.default.createElement(
+                                'em',
+                                null,
+                                'React + Express'
+                            ),
+                            ' for building this website as well.'
+                        ),
+                        _react2.default.createElement('br', null),
+                        _react2.default.createElement('br', null),
+                        _react2.default.createElement(
+                            _Projects.Projectname,
+                            null,
+                            'My first ever interactive webpage'
+                        ),
+                        _react2.default.createElement(
+                            _Aboutme.Matter,
+                            null,
+                            'Have worked on this as a part of Data Visualization course I have taken and that is when I started to love building the analytic tools and also web development in general. We used HTML, CSS, JavaScript and d3.js for building the page.',
+                            _react2.default.createElement('br', null),
+                            _react2.default.createElement('br', null),
+                            _react2.default.createElement(
+                                _Projects.Customlink,
+                                { href: 'https://u1068846.github.io/VisProject/gradSchoolFinder.html' },
+                                'Project link(Please don\'t judge! ',
+                                _react2.default.createElement('i', { className: 'em em-stuck_out_tongue' }),
+                                ')'
+                            )
+                        ),
+                        _react2.default.createElement('br', null),
+                        _react2.default.createElement('br', null),
+                        _react2.default.createElement(
+                            _Projects.Projectname,
+                            null,
+                            'Deep into Databases'
+                        ),
+                        _react2.default.createElement(
+                            _Aboutme.Matter,
+                            null,
+                            'Have worked on this as a part of Advanced Database Systems course and this project has helped me get to the bits and pieces of building a database system. This project is done completely in Java.',
+                            _react2.default.createElement('br', null),
+                            _react2.default.createElement('br', null),
+                            ' ',
+                            _react2.default.createElement(
+                                _Projects.Customlink,
+                                { href: 'http://catalog.utah.edu/preview_course_nopop.php?catoid=5&coid=59570' },
+                                'checkout the course page!'
+                            )
+                        ),
+                        _react2.default.createElement('br', null),
+                        _react2.default.createElement('br', null),
+                        _react2.default.createElement(
+                            _Projects.Projectname,
+                            null,
+                            'This is when it all started (Arduino)'
+                        ),
+                        _react2.default.createElement(
+                            _Aboutme.Matter,
+                            null,
+                            ' Back in my Under-grad days, I fell in love with coding when I started to play with a micro-controller board, Arduino. Later, me along with two other friends we built a Automatic motor vehicle braking prototype using Arduino as our Senior year project.',
+                            _react2.default.createElement('br', null),
+                            _react2.default.createElement('br', null),
+                            _react2.default.createElement(
+                                _Projects.Customlink,
+                                { href: 'https://github.com/u1068846/Arduino-Project-Overview/blob/master/Project%20Report.pdf' },
+                                'More briefing here'
+                            )
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return Projects;
 }(_react.Component);
 
 ;
