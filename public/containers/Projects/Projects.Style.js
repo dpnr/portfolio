@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Matter} from '../Aboutme/Aboutme.Style';
 
 export const Projectname = styled(Matter)`
-
+    padding-left: 10px;
     font-weight:bold;
 
 `;

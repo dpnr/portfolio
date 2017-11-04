@@ -68,6 +68,7 @@ export const Hello = styled.h1`
 
 export const Bioinfo = styled.p`
 
+
       ${({top})=> top && css` 
             margin-top : ${top};
        `};
