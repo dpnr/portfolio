@@ -16,7 +16,7 @@ render(){
         <div className='col-md-6'>
             <Content>
                 <Heading>About me </Heading>
-                    <Matter> I'm a Master's Student at the <a href="https://www.utah.edu/">University of Utah(UoU)</a> living in Salt lake city, Utah. 
+                    <Matter> I'm a Master's Student at the <a href="https://www.utah.edu/">University of Utah(UoU)</a> living in Salt Lake City, Utah. 
                         My interest lies in the fields of Visual Analytics and Web application development. I expect to graduate by the end of 
                         Spring 2018 and would be glad to take up a professional career path in one of the fields I'm interested in.
                         <br/>

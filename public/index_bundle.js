@@ -31633,7 +31633,7 @@ var Aboutme = function (_Component) {
                                 { href: 'https://www.utah.edu/' },
                                 'University of Utah(UoU)'
                             ),
-                            ' living in Salt lake city, Utah. My interest lies in the fields of Visual Analytics and Web application development. I expect to graduate by the end of Spring 2018 and would be glad to take up a professional career path in one of the fields I\'m interested in.',
+                            ' living in Salt Lake City, Utah. My interest lies in the fields of Visual Analytics and Web application development. I expect to graduate by the end of Spring 2018 and would be glad to take up a professional career path in one of the fields I\'m interested in.',
                             _react2.default.createElement('br', null),
                             _react2.default.createElement('br', null),
                             'I\'m currently working with ',
