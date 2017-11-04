@@ -31962,8 +31962,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Customlink = exports.Projectname = undefined;
 
-var _templateObject = _taggedTemplateLiteral(['\n    padding-left: 10px;\n    font-weight:bold;\n\n'], ['\n    padding-left: 10px;\n    font-weight:bold;\n\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n\n     \n    font-size:0.8em;\n    color: steel blue;\n    font-weight : normal;\n    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;\n    text-rendering: optimizeLegibility;\n    -webkit-font-smoothing: antialiased;\n   \n    &:hover{\n    \n        color: blue;\n        opacity: 1;\n        text-decoration: none;\n        \n    }\n\n'], ['\n\n     \n    font-size:0.8em;\n    color: steel blue;\n    font-weight : normal;\n    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;\n    text-rendering: optimizeLegibility;\n    -webkit-font-smoothing: antialiased;\n   \n    &:hover{\n    \n        color: blue;\n        opacity: 1;\n        text-decoration: none;\n        \n    }\n\n']);
+var _templateObject = _taggedTemplateLiteral(['\n    padding-left: 10px;\n    font-weight:bold;\n\n    ', '\n\n'], ['\n    padding-left: 10px;\n    font-weight:bold;\n\n    ', '\n\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n    padding-left: 0px;\n    \n    '], ['\n    padding-left: 0px;\n    \n    ']),
+    _templateObject3 = _taggedTemplateLiteral(['\n\n     \n    font-size:0.8em;\n    color: steel blue;\n    font-weight : 600;\n    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;\n    text-rendering: optimizeLegibility;\n    -webkit-font-smoothing: antialiased;\n   \n    &:hover{\n    \n        color: blue;\n        opacity: 1;\n        text-decoration: none;\n        \n    }\n\n'], ['\n\n     \n    font-size:0.8em;\n    color: steel blue;\n    font-weight : 600;\n    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;\n    text-rendering: optimizeLegibility;\n    -webkit-font-smoothing: antialiased;\n   \n    &:hover{\n    \n        color: blue;\n        opacity: 1;\n        text-decoration: none;\n        \n    }\n\n']);
 
 var _styledComponents = __webpack_require__(17);
 
@@ -31971,13 +31972,17 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _Aboutme = __webpack_require__(31);
 
+var _media = __webpack_require__(75);
+
+var _media2 = _interopRequireDefault(_media);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var Projectname = exports.Projectname = (0, _styledComponents2.default)(_Aboutme.Matter)(_templateObject);
+var Projectname = exports.Projectname = (0, _styledComponents2.default)(_Aboutme.Matter)(_templateObject, _media2.default.phone(_templateObject2));
 
-var Customlink = exports.Customlink = _styledComponents2.default.a(_templateObject2);
+var Customlink = exports.Customlink = _styledComponents2.default.a(_templateObject3);
 
 /***/ }),
 /* 260 */
