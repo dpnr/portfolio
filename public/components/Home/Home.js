@@ -32,7 +32,7 @@ export default class Home extends Component{
             <Icons left={'10px'} src='static/assets/email.svg' alt='mail page'/>
             </a>
             
-             <a href="static/assets/resume_17fall.pdf" target="_blank">
+             <a href="static/assets/pranavdommata_Resume.pdf" target="_blank">
             <Icons left={'10px'} src='static/assets/list.svg' alt='resume'/>
             </a>
             
