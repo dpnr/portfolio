@@ -40,7 +40,7 @@ export default class Home extends Component{
             <br/>
             
 
-            <a href="static/assets/Pranav_ResumeDec.pdf" target="_blank">
+            <a href="static/assets/pranavdommata_Resume.pdf" target="_blank">
             <button className="btn btn-lg btn-default"> Resume </button>
             </a>
     
