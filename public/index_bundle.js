@@ -31720,6 +31720,8 @@ var Aboutme = function (_Component) {
                                 'Graduate Teaching Assistant'
                             ),
                             ' - Visualization for Data Science, for the Fall 2017.',
+                            _react2.default.createElement('br', null),
+                            _react2.default.createElement('br', null),
                             _react2.default.createElement(
                                 'a',
                                 { href: 'https://student.apps.utah.edu/uofu/stu/classtools/syllabus/1184/7170/CS3200_Syllabus.pdf', style: { "fontSize": "1.0em", "fontWeight": "500" }, target: '_blank' },

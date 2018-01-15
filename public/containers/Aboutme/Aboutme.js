@@ -55,7 +55,7 @@ render(){
                 </Underline> 
                 
                     <Matter>
-                         <a href="http://dataviscourse.net/2017/" style={{"fontSize":"1.0em", "fontWeight":"500"}} target="_blank">Graduate Teaching Assistant</a> - Visualization for Data Science, for the Fall 2017.
+                         <a href="http://dataviscourse.net/2017/" style={{"fontSize":"1.0em", "fontWeight":"500"}} target="_blank">Graduate Teaching Assistant</a> - Visualization for Data Science, for the Fall 2017.<br/><br/>
                          <a href="https://student.apps.utah.edu/uofu/stu/classtools/syllabus/1184/7170/CS3200_Syllabus.pdf" style={{"fontSize":"1.0em", "fontWeight":"500"}} target="_blank">Graduate Teaching Assistant</a> - Intro to Scientific Computing, for the Spring 2018.
                     </Matter>
                 
