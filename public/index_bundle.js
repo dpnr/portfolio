@@ -6467,7 +6467,7 @@ var Home = function (_Component) {
                     _react2.default.createElement(
                         _Home.Bioinfo,
                         { font: '1.2em', top: '10px', left: '0px' },
-                        'Master Student in Comp. Science '
+                        'Master\'s Student in Comp. Science '
                     ),
                     _react2.default.createElement(
                         _Home.Bioinfo,

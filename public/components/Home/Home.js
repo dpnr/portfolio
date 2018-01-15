@@ -18,7 +18,7 @@ export default class Home extends Component{
             <Image src='static/assets/profile_zoomed.jpg' alt='pranav dommata'/>
             <Bioline font={'1.9em'} margin={'0px 30px'}>Pranav Dommata</Bioline>
 
-            <Bioinfo font={'1.2em'}  top={'10px'} left={'0px'}>Master Student in Comp. Science </Bioinfo>
+            <Bioinfo font={'1.2em'}  top={'10px'} left={'0px'}>Master's Student in Comp. Science </Bioinfo>
             <Bioinfo font={'1.2em'}  top={'0px'} left={'0px'}> University of Utah </Bioinfo>
             <div style={{'paddingTop':'20px'}}>
             
