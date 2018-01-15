@@ -31633,7 +31633,7 @@ var Aboutme = function (_Component) {
                                 { href: 'https://www.utah.edu/' },
                                 'University of Utah(UoU)'
                             ),
-                            ' living in Salt Lake City, Utah. My interest lies in the fields of Visual Analytics and Web application development. I expect to graduate by the end of Spring 2018 and would be glad to take up a professional career path in one of the fields I\'m interested in.',
+                            ' living in Salt Lake City, Utah. My interest lies in the fields of Visual Analytics, Data Engineering and Web Application Development. I expect to graduate by May, 2018 and would be glad to take up a professional career path in one of the fields mentioned.',
                             _react2.default.createElement('br', null),
                             _react2.default.createElement('br', null),
                             'I\'m currently working with ',
@@ -31719,7 +31719,13 @@ var Aboutme = function (_Component) {
                                 { href: 'http://dataviscourse.net/2017/', style: { "fontSize": "1.0em", "fontWeight": "500" }, target: '_blank' },
                                 'Graduate Teaching Assistant'
                             ),
-                            ' - Visualization for Data Science course, for the Fall 2017.'
+                            ' - Visualization for Data Science, for the Fall 2017.',
+                            _react2.default.createElement(
+                                'a',
+                                { href: 'https://student.apps.utah.edu/uofu/stu/classtools/syllabus/1184/7170/CS3200_Syllabus.pdf', style: { "fontSize": "1.0em", "fontWeight": "500" }, target: '_blank' },
+                                'Graduate Teaching Assistant'
+                            ),
+                            ' - Intro to Scientific Computing, for the Spring 2018.'
                         )
                     )
                 )
@@ -31807,17 +31813,13 @@ var Projects = function (_Component) {
                                 _Projects.Projectname,
                                 null,
                                 'Finally Machine learning! ',
-                                _react2.default.createElement(
-                                    'em',
-                                    { style: { "fontSize": "1.0em", "fontWeight": "500" } },
-                                    '(ongoing)'
-                                )
+                                _react2.default.createElement('em', { style: { "fontSize": "1.0em", "fontWeight": "500" } })
                             )
                         ),
                         _react2.default.createElement(
                             _Aboutme.Matter,
                             null,
-                            'The main goal is to build a machine learning (ML) classifier to efficiently perform the task of classifying the data of Twitter users. The classifier is supposed to predict if the user is a content polluter or not. Building in Python and no ML packages are used.'
+                            'The main goal is to build a machine learning (ML) classifier to efficiently perform the task of classifying the data of Twitter users. The classifier is supposed to predict if the user is a content polluter or not. Built in Python and no ML packages are used.'
                         ),
                         _react2.default.createElement('br', null),
                         _react2.default.createElement('br', null),
@@ -31828,17 +31830,13 @@ var Projects = function (_Component) {
                                 _Projects.Projectname,
                                 null,
                                 'Event Extractions ',
-                                _react2.default.createElement(
-                                    'em',
-                                    { style: { "fontSize": "1.0em", "fontWeight": "500" } },
-                                    '(ongoing)'
-                                )
+                                _react2.default.createElement('em', { style: { "fontSize": "1.0em", "fontWeight": "500" } })
                             )
                         ),
                         _react2.default.createElement(
                             _Aboutme.Matter,
                             null,
-                            'Building an information extraction(IE) system for the news articles as part of the Natural Language Processing (NLP) course work. Making use of the different NLP techniques to extract several types of information. Implementing it completely using Python and no libraries which does any means of event extractions are used.'
+                            'Built an information extraction(IE) system for the news articles as part of the Natural Language Processing (NLP) course work. Making use of the different NLP techniques to extract several types of information. Implementing it completely using Python and no libraries which does any means of event extractions are used. Awarded the best poster for the final project presentation.'
                         ),
                         _react2.default.createElement('br', null),
                         _react2.default.createElement('br', null),
@@ -31864,13 +31862,13 @@ var Projects = function (_Component) {
                             _react2.default.createElement(
                                 'em',
                                 null,
-                                'React'
+                                'ReactJS'
                             ),
                             '. Used ',
                             _react2.default.createElement(
                                 'em',
                                 null,
-                                'React + Express'
+                                'ReactJS + ExpressJS'
                             ),
                             ' for building this website as well.'
                         ),
@@ -31888,7 +31886,7 @@ var Projects = function (_Component) {
                         _react2.default.createElement(
                             _Aboutme.Matter,
                             null,
-                            'Have worked on this as a part of Data Visualization course I have taken and that is when I started to love building the analytic tools and also web development in general. We used HTML, CSS, JavaScript and d3.js for building the page.',
+                            'Worked on this as a part of Data Visualization course I have taken and that is when I started to love building the analytic tools and also web development in general. We used HTML, CSS, JavaScript and d3.js for building the page.',
                             _react2.default.createElement('br', null),
                             _react2.default.createElement('br', null),
                             _react2.default.createElement(
@@ -31911,7 +31909,7 @@ var Projects = function (_Component) {
                         _react2.default.createElement(
                             _Aboutme.Matter,
                             null,
-                            'Have worked on this as a part of Advanced Database Systems course and this project has helped me get to the bits and pieces of building a database system. This project is done completely in Java.',
+                            'Worked on this as a part of Advanced Database Systems course and this project has helped me get to the bits and pieces of building a database system. This project is done completely in Java.',
                             _react2.default.createElement('br', null)
                         ),
                         _react2.default.createElement('br', null),
