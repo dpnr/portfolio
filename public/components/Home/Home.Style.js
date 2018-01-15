@@ -88,3 +88,9 @@ export const Bioline = styled(Bioinfo)`
 
        
 `;
+
+export const Resume = styled.button`
+
+    background-color : #ddfdfd47;
+    border-width : 2px;
+`;

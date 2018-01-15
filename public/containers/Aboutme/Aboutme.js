@@ -16,12 +16,12 @@ render(){
         <div className='col-md-6'>
             <Content>
                 <Heading>About me </Heading>
-                    <Matter> I'm a Master's Student at the <a href="https://www.utah.edu/">University of Utah(UoU)</a> living in Salt Lake City, Utah. 
+                    <Matter> I'm a Master's Student at the <a href="https://www.utah.edu/">University of Utah(UofU)</a> living in Salt Lake City, Utah. 
                         My interest lies in the fields of Visual Analytics, Data Engineering and Web Application Development. I expect to graduate by May, 2018
                          and would be glad to take up a professional career path in one of the fields mentioned.
                         <br/>
                         <br/>
-                        I'm currently working with <a href="http://vdl.sci.utah.edu/team/lex/">Dr. Alexander Lex</a> in the <a href="http://vdl.sci.utah.edu/">Visualization design lab</a> at UoU on visualizing biological data.
+                        I'm currently working with <a href="http://vdl.sci.utah.edu/team/lex/">Dr. Alexander Lex</a> in the <a href="http://vdl.sci.utah.edu/">Visualization Design Lab</a> at the UofU on visualizing biological data.
                         I gained my professional experienece in the visual analytics domain through my internship at
                         the Pacific Northwest National Lab (PNNL), Washington during the summer of 2017.
                         <br/>

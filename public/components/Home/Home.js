@@ -1,6 +1,6 @@
 import React,{ Component, PropTypes} from 'react';
 import styled from 'styled-components';
-import { Container, Image, Impline, Bioline,Bioinfo, Icons } from './Home.Style';
+import { Container, Image, Impline, Bioline,Bioinfo, Icons, Resume } from './Home.Style';
 
 
 let buttonclicked;
@@ -41,7 +41,7 @@ export default class Home extends Component{
             
 
             <a href="static/assets/pranavdommata_Resume.pdf" target="_blank">
-            <button className="btn btn-lg btn-default"> Resume </button>
+            <Resume className="btn btn-lg btn-default resume"> Resume </Resume>
             </a>
     
             </div>

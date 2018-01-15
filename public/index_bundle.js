@@ -6503,8 +6503,8 @@ var Home = function (_Component) {
                             'a',
                             { href: 'static/assets/pranavdommata_Resume.pdf', target: '_blank' },
                             _react2.default.createElement(
-                                'button',
-                                { className: 'btn btn-lg btn-default' },
+                                _Home.Resume,
+                                { className: 'btn btn-lg btn-default resume' },
                                 ' Resume '
                             )
                         )
@@ -16165,7 +16165,7 @@ var Flex = exports.Flex = _styledComponents2.default.div(_templateObject2, funct
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.Bioline = exports.Bioinfo = exports.Hello = exports.Impline = exports.Icons = exports.Image = exports.Container = undefined;
+exports.Resume = exports.Bioline = exports.Bioinfo = exports.Hello = exports.Impline = exports.Icons = exports.Image = exports.Container = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n\nmargin-top: 40px;\npadding-bottom: 30px;\nborder-right: 6px solid #fff7c6; \n\n    ', '\n\n'], ['\n\nmargin-top: 40px;\npadding-bottom: 30px;\nborder-right: 6px solid #fff7c6; \n\n    ', '\n\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n        border-right: 0px solid white;\n        border-bottom: 6px solid #fff7c6;\n    \n    '], ['\n        border-right: 0px solid white;\n        border-bottom: 6px solid #fff7c6;\n    \n    ']),
@@ -16178,7 +16178,8 @@ var _templateObject = _taggedTemplateLiteral(['\n\nmargin-top: 40px;\npadding-bo
     _templateObject9 = _taggedTemplateLiteral([' \n            margin-top : ', ';\n       '], [' \n            margin-top : ', ';\n       ']),
     _templateObject10 = _taggedTemplateLiteral([' \n            margin-left : ', ';\n       '], [' \n            margin-left : ', ';\n       ']),
     _templateObject11 = _taggedTemplateLiteral([' \n            font-size : ', ';\n       '], [' \n            font-size : ', ';\n       ']),
-    _templateObject12 = _taggedTemplateLiteral(['\n       \n     margin-top : 30px;\n\n       \n'], ['\n       \n     margin-top : 30px;\n\n       \n']);
+    _templateObject12 = _taggedTemplateLiteral(['\n       \n     margin-top : 30px;\n\n       \n'], ['\n       \n     margin-top : 30px;\n\n       \n']),
+    _templateObject13 = _taggedTemplateLiteral(['\n\n    background-color : #ddfdfd47;\n    border-width : 2px;\n'], ['\n\n    background-color : #ddfdfd47;\n    border-width : 2px;\n']);
 
 var _styledComponents = __webpack_require__(17);
 
@@ -16218,6 +16219,8 @@ var Bioinfo = exports.Bioinfo = _styledComponents2.default.p(_templateObject8, f
 });
 
 var Bioline = exports.Bioline = (0, _styledComponents2.default)(Bioinfo)(_templateObject12);
+
+var Resume = exports.Resume = _styledComponents2.default.button(_templateObject13);
 
 /***/ }),
 /* 123 */
@@ -31631,7 +31634,7 @@ var Aboutme = function (_Component) {
                             _react2.default.createElement(
                                 'a',
                                 { href: 'https://www.utah.edu/' },
-                                'University of Utah(UoU)'
+                                'University of Utah(UofU)'
                             ),
                             ' living in Salt Lake City, Utah. My interest lies in the fields of Visual Analytics, Data Engineering and Web Application Development. I expect to graduate by May, 2018 and would be glad to take up a professional career path in one of the fields mentioned.',
                             _react2.default.createElement('br', null),
@@ -31646,9 +31649,9 @@ var Aboutme = function (_Component) {
                             _react2.default.createElement(
                                 'a',
                                 { href: 'http://vdl.sci.utah.edu/' },
-                                'Visualization design lab'
+                                'Visualization Design Lab'
                             ),
-                            ' at UoU on visualizing biological data. I gained my professional experienece in the visual analytics domain through my internship at the Pacific Northwest National Lab (PNNL), Washington during the summer of 2017.',
+                            ' at the UofU on visualizing biological data. I gained my professional experienece in the visual analytics domain through my internship at the Pacific Northwest National Lab (PNNL), Washington during the summer of 2017.',
                             _react2.default.createElement('br', null),
                             _react2.default.createElement('br', null),
                             'Prior to taking up my graduate studies, I worked as a Software Engineer for two years at TEKsystems back in the country where I\'m from, India.',
