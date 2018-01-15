@@ -17,8 +17,8 @@ render(){
             <Content>
                 <Heading>About me </Heading>
                     <Matter> I'm a Master's Student at the <a href="https://www.utah.edu/">University of Utah(UoU)</a> living in Salt Lake City, Utah. 
-                        My interest lies in the fields of Visual Analytics and Web application development. I expect to graduate by the end of 
-                        Spring 2018 and would be glad to take up a professional career path in one of the fields I'm interested in.
+                        My interest lies in the fields of Visual Analytics, Data Engineering and Web Application Development. I expect to graduate by May, 2018
+                         and would be glad to take up a professional career path in one of the fields mentioned.
                         <br/>
                         <br/>
                         I'm currently working with <a href="http://vdl.sci.utah.edu/team/lex/">Dr. Alexander Lex</a> in the <a href="http://vdl.sci.utah.edu/">Visualization design lab</a> at UoU on visualizing biological data.
@@ -55,7 +55,8 @@ render(){
                 </Underline> 
                 
                     <Matter>
-                         <a href="http://dataviscourse.net/2017/" style={{"fontSize":"1.0em", "fontWeight":"500"}} target="_blank">Graduate Teaching Assistant</a> - Visualization for Data Science course, for the Fall 2017.
+                         <a href="http://dataviscourse.net/2017/" style={{"fontSize":"1.0em", "fontWeight":"500"}} target="_blank">Graduate Teaching Assistant</a> - Visualization for Data Science, for the Fall 2017.
+                         <a href="https://student.apps.utah.edu/uofu/stu/classtools/syllabus/1184/7170/CS3200_Syllabus.pdf" style={{"fontSize":"1.0em", "fontWeight":"500"}} target="_blank">Graduate Teaching Assistant</a> - Intro to Scientific Computing, for the Spring 2018.
                     </Matter>
                 
                 
