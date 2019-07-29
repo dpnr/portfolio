@@ -25,7 +25,7 @@ export default class Home extends Component{
             <a href="http://linkedin.com/in/pranavnath-dommata/" target="_blank">
             <Icons left={'0px'} src='static/assets/linkedin.svg'  alt='linkedin page' />
             </a>
-            <a href="http://github.com/u1068846" target="_blank">
+            <a href="http://github.com/pdommata" target="_blank">
             <Icons left={'10px'} src='static/assets/github.svg' alt='github page'/>
             </a>
             <a href="mailto:pranavnathdommata@gmail.com" >
