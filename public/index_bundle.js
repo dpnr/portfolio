@@ -6484,7 +6484,7 @@ var Home = function (_Component) {
                         ),
                         _react2.default.createElement(
                             'a',
-                            { href: 'http://github.com/u1068846', target: '_blank' },
+                            { href: 'http://github.com/pdommata', target: '_blank' },
                             _react2.default.createElement(_Home.Icons, { left: '10px', src: 'static/assets/github.svg', alt: 'github page' })
                         ),
                         _react2.default.createElement(
